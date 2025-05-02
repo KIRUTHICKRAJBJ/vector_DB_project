@@ -5,7 +5,7 @@ from utils.chunking import chunk_text
 from utils.embedding import get_embeddings, model
 from utils.faiss_handler import save_index, search_index
 
-st.title("Upload File + Semantic Search with FAISS")
+st.title("Semantic Search with FAISS")
 
 uploaded_file = st.file_uploader("Upload a PDF, TXT, or DOCX file", type=["pdf", "txt", "docx"])
 
